@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=Concert+One&family=IM+Fell+DW+Pica:ital@0;1&family=Passion+One:wght@400;700;900&family=Poetsen+One&family=Rowdies:wght@300;400;700&family=Satisfy&display=swap');
+
+
+body {
+  background-color: #f8f9fa;
+}
+
+/* *{
+     border: 2px solid black;
+  } */
+.header {
+  background-color: #343a40;
+  padding: 20px 0;
+  color: #fff;
+  font-family: "Acme", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.header-logo {
+  height: 70px;
+}
+
+.header-title {
+  display: inline-block;
+  margin-left: 20px;
+  font-size: 24px;
+}
+
+
+.first h1 {
+  font-family: "Concert One", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  padding: 25px;
+  color: white;
+  background-color: black;
+  margin-bottom: 0px;
+}
+
+.sec{
+  background-color: black;
+}
+
+.intro{
+  font-family: "Passion One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  padding: 10px;
+}
+
+.intro h5, .obj h4{
+  margin-bottom: 0px;
+}
+
+.obj ul{
+  font-family: "IM Fell DW Pica", serif;
+  font-weight: 600;
+  font-style: normal;
+  list-style-type: none;
+  
+}
+
+.obj{
+  padding: 15px;
+}
+
+.obj h3, h4{
+
+    font-family: "Rowdies", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+
+}
+
+.intro, .obj{
+  background-color: #C3B25E;
+  padding-left: 20%;
+}
+
+.foot{
+  padding: 5px;
+  text-align: center;
+  background-color: darkslateblue;
+  color: whitesmoke;
+}
+.objectives-list li {
+  font-size: 18px;
+  margin: 10px 0;
+}
+
+@keyframes confetti-explosion {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
