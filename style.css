@@ -42,6 +42,8 @@ body {
   background-color: black;
 }
 
+
+
 .intro{
   font-family: "Passion One", sans-serif;
   font-weight: 400;
@@ -96,5 +98,11 @@ body {
 
   100% {
     opacity: 1;
+  }
+}
+
+@media (max-width: 430px) {
+  .sec img{
+      width: 85%;
   }
 }
